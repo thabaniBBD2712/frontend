@@ -165,7 +165,7 @@ const flipCard = (card) => {
       clearInterval(state.loop);
           try{
            // Call the API to insert user and score into the database
-           const response =await fetch("http://localhost:3000/score", {
+           const response =await fetch("http://13.246.10.236:3000/score", {
             method: "POST",
             headers: {
               "Content-Type": "application/x-www-form-urlencoded",
