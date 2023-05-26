@@ -28,7 +28,6 @@ const userEmail = localStorage.getItem("userEmail");
 if (userEmail) {
   updateUser(userEmail);
 } else {
-  window.location.href = "../pages/login.html";
   console.log("User email not found.");
 }
 
